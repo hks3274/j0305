@@ -9,7 +9,7 @@ public class StudentRun2 {
 		StudentVO vo = new StudentVO();
 		
 		System.out.print("번호를 입력하세요 ");
-		vo.setNo(sc.nextInt()); //이렇게 하는 방법이!!
+		vo.setNo(sc.nextInt()); //이렇게 하는 방법이!! 놀라워라!! 이건 배우지 않았다구~
 		System.out.print("성명를 입력하세요 ");
 		vo.setName(sc.next());
 		System.out.print("나이를 입력하세요 ");

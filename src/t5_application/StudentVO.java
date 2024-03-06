@@ -20,12 +20,14 @@ package t5_application;
  * 이렇게 쓰는 것이 getter 이다.
  * 
  * -> 다축키 Alt, s,  R, Alt+A, Alt+R ==> 순서대로 치기
+ * 
+ * DAO - Data Access object 데이터 연결 객체
  */
 
 
 
 public class StudentVO { 
-	int no;
+	private int no;
 	String name;
 	int age;
 	boolean gender;
@@ -61,6 +63,5 @@ public class StudentVO {
 	public void setJob(String job) {
 		this.job = job;
 	}
-	
 
 }
